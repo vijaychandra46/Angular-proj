@@ -1,0 +1,13 @@
+img{
+    width: 100%;
+    background-size: cover;
+}
+.img{
+    background-color: rgb(93,97,102);
+    color: white;
+    margin-top: -5px;
+}
+button{
+    color: white;
+}
+

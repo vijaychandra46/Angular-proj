@@ -1,0 +1,15 @@
+.danger{
+    height: 200px;
+    padding: 5%;
+    text-align: center;
+    border-top: 2px solid rgb(0, 102, 128);
+}
+.about{
+    /* margin-top: 10%; */
+    padding: 10%;
+}
+.bg{
+    background:  url("../../../assets/about.jpg") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+}

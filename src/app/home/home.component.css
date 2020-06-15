@@ -1,0 +1,82 @@
+.carousel-item img{
+    width: 100%;
+}
+#slideCaption{
+    margin-bottom:40% ;
+    transition: 5s;
+}
+#slideCaption h2{
+    font-size: xxx-large; 
+}
+#bg1{
+    
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+
+}
+.contact-form{
+    margin: 10px;
+    margin-right: 100px;
+}
+i{
+    font-size: 40px;
+    padding: 8px;
+}
+.searchDiv{
+   padding: 15px;
+   border-radius: 10px;
+   background-color: rgba(0,0,0, 0.5);
+   color: white;
+}
+.searchDiv:hover{
+    box-shadow: 0 0 12px white;
+}
+#contact{
+    padding: 20px;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+}
+#contact:hover{
+    box-shadow: 0 0 12px rgba(243, 243, 243);
+}
+.bg{
+    width: 100%;
+    background: url("../../assets/d5.jpg")center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15px;
+    
+}
+#about{
+    color: white;
+    text-align: justify;
+    background-color: rgba(0,0,0, 0.5);
+   
+}
+
+@media (max-width: 990px){
+    #slideCaption{
+        margin-bottom:25% ;
+        transition: 5s;
+    }
+    #slideCaption h2{
+        font-size: 30px;
+    }
+    #contact{
+        padding:  15px;
+ }
+}
+@media (max-width: 775px){
+   
+    #slideCaption h2 {
+        display: none;
+    }
+    #slideCaption p {
+        display: none;
+    }    
+    #contact{
+           padding:  10px;
+    }
+}

@@ -1,0 +1,33 @@
+.container{
+    padding: 6% 0 6% 0;
+    color: white;
+    font-weight: 800;
+}
+.bg{
+    background: url("../../../assets/regs.jpg");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+.card{
+    background-color: rgba(251, 252, 253,0.2);
+    /* background-color: rgba(0, 0, 0,0.3); */
+
+}
+input{
+    background:transparent;
+}
+.validatio-message{
+    color: red;
+    text-shadow: 0 0 1px red;
+}
+.success{
+    color: green;
+    font-size: 20px;
+    text-shadow: 0 0 1px green;
+}
+.errors{
+    color: red;
+    font-size: 20px;
+    text-shadow: 0 0 1px red;
+}

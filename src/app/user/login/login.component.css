@@ -1,0 +1,19 @@
+.container{
+    padding: 6.5%; 
+}
+#slides{
+    background-color: white;
+    height: 320px;
+}
+.bg{
+    background: url("../../../assets/login.jpg");
+    background-size: cover;
+}
+.card{
+    background-color: rgba(251, 252, 253,0.2);
+    color: white;
+
+}
+input{
+    background:transparent;
+}
